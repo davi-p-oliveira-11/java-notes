@@ -28,7 +28,7 @@ public class MadLibs {
 
         System.out.print("Enter an adjective (description): ");
         adjective3 = scanner.nextLine();
-        
+
         System.out.println("Today I went to a " + adjective1 + " zoo.");
         System.out.println("In an exhibit, I saw a " + noun1 + ".");
         System.out.println(noun1 + " was " + adjective2 + " and " + verb1 + "!");
