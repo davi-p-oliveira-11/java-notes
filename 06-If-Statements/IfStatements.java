@@ -20,7 +20,7 @@ public class IfStatements {
         System.out.print("Are you a student (true/false): ?");
         isStudent = scanner.nextBoolean();
 
-        // Group 1
+        // Group 1hat iuu
         if(name.isEmpty()) {
             System.out.println("You didn't enter your name !");
         } else {
