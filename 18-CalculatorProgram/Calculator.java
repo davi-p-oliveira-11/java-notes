@@ -41,7 +41,7 @@ public class Calculator {
         if(validOperation) {
             System.out.println(result);
         }
-        
+
         scanner.close();
     }
 }
