@@ -5,6 +5,11 @@ public class RockPaperScissors {
     public static void main(String[] args) {
 
         // ROCK PAPER SCISSORS GAME
+        // Declare Variables
+        // Get Random Choice for the computer
+        // Check win conditions
+        // Ask to play again ?
+        // Goodbye Message
 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
