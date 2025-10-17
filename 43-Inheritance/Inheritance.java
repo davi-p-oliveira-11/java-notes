@@ -5,7 +5,7 @@ public class Inheritance {
         //                         from another class.
         //                         Child <- Parent <- Grandparent
 
-        Dog dog = new Dog();
+        Dog2 dog = new Dog2();
         Cat cat = new Cat();
         Plant plant = new Plant();
 
