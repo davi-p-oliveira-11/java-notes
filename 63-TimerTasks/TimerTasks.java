@@ -5,11 +5,11 @@ public class TimerTasks {
     public static void main(String[] args) {
 
         // Timer = Class that schedules tasks at specific times or periodically
-        //               Useful for: sending notifications, scheduled updates, repetitive actions
+        //         Useful for: sending notifications, scheduled updates, repetitive actions
 
         // TimerTask = Represents the task that will be executed by the Timer
-        //                        You will extend the TimerTask class to define your task
-        //                        Create a subclass of TimerTask and @Override run()
+        //             You will extend the TimerTask class to define your task
+        //             Create a subclass of TimerTask and @Override run()
 
         Timer timer = new Timer();
         TimerTask task = new TimerTask(){
