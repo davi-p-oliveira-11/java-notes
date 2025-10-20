@@ -13,18 +13,14 @@ public class ExceptionHandling {
             System.out.print("Enter a number: ");
             int number = scanner.nextInt();
             System.out.println(number);
-        }
-        catch (InputMismatchException e) {
+        } catch (InputMismatchException e) {
             System.out.println("That wasn't a number!");
-        }
-        catch (ArithmeticException e) {
+        } catch (ArithmeticException e) {
             System.out.println("YOU CAN'T DIVIDE BY ZERO!");
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             // SAFETY NET
             System.out.println("Something went wrong");
-        }
-        finally {
+        } finally {
             System.out.println("This always executes");
         }
     }
