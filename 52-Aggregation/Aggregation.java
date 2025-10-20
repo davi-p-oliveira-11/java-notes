@@ -2,8 +2,8 @@ public class Aggregation {
     public static void main(String[] args) {
 
         // Aggregation = Represents a "has-a" relationship between objects.
-        //                           One object contains another object as part of its structure,
-        //                           but the contained object/s can exist independently.
+        //               One object contains another object as part of its structure,
+        //               but the contained object/s can exist independently.
 
         Book book1 = new Book("The Fellowship of the Ring", 423);
         Book book2 = new Book("The Two Towers", 352);
